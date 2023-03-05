@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: public.ecr.aws/a6o8o7v2/api-image:0.0.2
+        image: public.ecr.aws/a6o8o7v2/api-image:0.0.3
         ports:
         - containerPort: 80
         env:
