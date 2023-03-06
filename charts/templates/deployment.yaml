@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: public.ecr.aws/a6o8o7v2/api-image:0.0.5
+        image: public.ecr.aws/a6o8o7v2/api-image:0.0.6
         ports:
         - containerPort: 80
         env:
@@ -23,4 +23,9 @@ spec:
             configMapKeyRef:
               name: config
               key: environment
+        - name: chart_version
+          valueFrom:
+            configMapKeyRef:
+              name: config-chart-version
+              key: chart_version
 

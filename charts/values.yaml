@@ -1,1 +1,3 @@
 environment: production
+host: api.production
+chart_version: 0.0.6
