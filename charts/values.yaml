@@ -1,4 +1,4 @@
 environment: production
 host: api.production
 chart_version: 0.0.6
-image: public.ecr.aws/a6o8o7v2/api-image:0.0.6
+image: public.ecr.aws/a6o8o7v2/api-image:0.0.9
