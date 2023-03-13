@@ -3,4 +3,3 @@ name: api-chart
 type: application
 description: A Helm chart for api.
 version: "0.0.7"
-appVersion: "0.0.7"

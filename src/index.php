@@ -1,7 +1,7 @@
 <?php
 
 $env = $_ENV['environment'];
-$appVersion = '0.0.9';
+$appVersion = '0.0.10';
 $chartVersion = $_ENV['chart_version'];
 
 echo <<<JSON
