@@ -3,7 +3,7 @@ services:
   api:
     build:
       context: .
-    image: public.ecr.aws/a6o8o7v2/api-image:0.0.10
+    image: public.ecr.aws/a6o8o7v2/api-image:0.0.11
     ports:
       - "9000:80"
     volumes:
